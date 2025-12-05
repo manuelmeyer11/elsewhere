@@ -30,7 +30,7 @@ const SCENES = [
     previewImg: '/munich-preview.png', 
     audioUrl: '/munich.mp3',
     description: 'My room in Munich.',
-    splatPosition: [0, 0, 0], camPosition: [0, 1.5, 3],
+    splatPosition: [0, 1.5, 0], camPosition: [0, 1.5, 3], splatScale: [2, 2, 2],
     texts: [
       { title: "Chaos.", body: "I still don't have a lot of personal stuff over here, but nonetheless, it is filled by some good and some weird books. Colors and textures I don't like. But the light is great." },
       { title: "Door to the hallway.", body: "Take a look through the door into the hallway and tell me what you've found." }
@@ -40,9 +40,9 @@ const SCENES = [
 
 // --- STICKER DATEN (SVGs) ---
 const INITIAL_STICKERS = [
-  { id: 'gemini', src: '/gemini.svg', x: window.innerWidth - 180, y: 150, rotate: 5 },
   { id: 'react', src: '/react.svg', x: window.innerWidth - 160, y: 320, rotate: -8 },
   { id: 'vscode', src: '/vscode.svg', x: window.innerWidth - 190, y: 480, rotate: 12 },
+  { id: 'gemini', src: '/gemini.svg', x: window.innerWidth - 180, y: 150, rotate: 5 },
 ]
 
 // --- CSS STYLES ---
