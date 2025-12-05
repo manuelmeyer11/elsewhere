@@ -1,0 +1,41 @@
+{
+  "name": "elsewhere",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.107.2",
+    "@react-three/fiber": "^8.16.8",
+    "@react-three/postprocessing": "^2.16.3",
+    "@react-three/rapier": "^1.4.0",
+    "@theatre/core": "^0.7.2",
+    "@theatre/r3f": "^0.7.2",
+    "@theatre/studio": "^0.7.2",
+    "@types/three": "^0.181.0",
+    "maath": "^0.10.8",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "theatre": "^0.2.3",
+    "three": "^0.181.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "vite": "^7.2.4"
+  },
+  "overrides": {
+    "three-stdlib": "^2.30.0"
+  }
+}
